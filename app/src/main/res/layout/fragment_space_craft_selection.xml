@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"></Space>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:src="@drawable/spaceship" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"></Space>
+
+    <EditText
+        android:id="@+id/editTextIp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edt_style"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/IpString"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:background="@drawable/btn_style"
+        android:fontFamily="sans-serif-light"
+        android:onClick="introduceIP"
+        android:text="@string/enviar"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25sp" />
+</LinearLayout>

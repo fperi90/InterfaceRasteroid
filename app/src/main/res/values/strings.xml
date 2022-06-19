@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntefaceRasteroid</string>
+    <string name="splashScreenText">Rasteroid</string>
+    <string name="IpString">Introduce the ip number</string>
+    <string name="enviar">enviar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
